@@ -1,0 +1,854 @@
+body {
+    padding: 0;
+    margin-left: 50px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 12px;
+
+}
+
+h1 {
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+
+
+.mainPage {
+    display: grid;
+    grid-template-columns: repeat(90, 70px);
+    grid-template-rows: 250px 50px 250px 50px 250px 50px 250px 50px 250px ;
+    grid-column-gap: 10px;
+    border: 1px solid black;
+    width: 7250px;
+    height: 1500px;
+    justify-items: center;
+    align-items: center;
+}
+
+/* I */
+
+.generation1 {
+    grid-row: 9/10;
+}
+
+.firstFather {
+    grid-column: 47/49;
+}
+
+.firstMother {
+    grid-column: 49/51;
+}
+
+.conectionLine {
+    grid-row: 8/9;
+    grid-column: 13/87;
+    width: 5920px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.conectionLine2 {
+    grid-row: 8/9;
+    grid-column: 26/43;
+    width: 1370px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.conectionLine3 {
+    grid-row: 8/9;
+    grid-column: 49/73;
+    width: 1920px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.conectionLine::after {
+    grid-row: 8/9;
+    grid-column: 49/51;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 2879px;
+}
+
+/* II */
+
+.generation2 {
+    grid-row: 7/8;
+
+}
+
+.manFamily1 {
+    grid-column: 12/14;
+}
+
+.womenFamily1 {
+    grid-column: 14/16;
+}
+
+.manFamily2 {
+    grid-column: 25/27;
+}
+
+.womenFamily2 {
+    grid-column: 27/29;
+}
+
+.manFamily3 {
+    grid-column: 42/44;
+}
+
+.womenFamily3 {
+    grid-column: 44/46;
+}
+
+.manFamily4 {
+    grid-column: 48/50;
+}
+
+.womenFamily4 {
+    grid-column: 50/52;
+}
+
+.manFamily5 {
+    grid-column: 70/72;
+}
+
+.womenFamily5 {
+    grid-column: 72/74;
+}
+
+.man2Family5 {
+    grid-column: 74/76;
+}
+
+
+.manFamily6 {
+    grid-column: 86/88;
+}
+
+.womenFamily6 {
+    grid-column: 88/90;
+}
+
+.conectionLine1 {
+    grid-row: 6/7;
+    grid-column: 2/38;
+    width: 2894px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.conectionLine12 {
+    grid-row: 6/7;
+    grid-column: 8/14;
+    width: 620px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: -82px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.conectionLine13 {
+    grid-row: 6/7;
+    grid-column: 26/38;
+    width: 955px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+}
+
+.conectionLine1::after {
+    grid-row: 8/9;
+    grid-column: 27/28;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 2010px;
+}
+
+.conectionLine14 {
+    grid-row: 6/7;
+    grid-column: 44/45;
+    width: 955px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    right: -440px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+}
+
+.conectionLine15 {
+    grid-row: 6/7;
+    grid-column: 56/72;
+    width: 1285px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.conectionLine16 {
+    grid-row: 6/7;
+    grid-column: 69/70;
+    width: 625px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: -440px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+}
+
+.conectionLine16::after {
+    grid-row: 8/9;
+    grid-column: 73/74;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 75px;
+}
+
+
+.conectionLine17 {
+    grid-row: 6/7;
+    grid-column: 74/75;
+    width: 0px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    right: 35px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+
+.conectionLine18 {
+    grid-row: 6/7;
+    grid-column: 69/70;
+    width: 800px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: -765px;
+    border-right: 1px solid black;
+    /* border-left: 1px solid black; */
+    border-bottom: 1px solid black;
+
+}
+
+
+
+
+
+
+
+/* III */
+
+.generation3 {
+    grid-row: 5/6; 
+}
+
+.manFamily31 {
+    grid-column: 1/3;
+}
+
+.womenFamily31 {
+    grid-column: 3/5;
+}
+
+.manFamily32 {
+    grid-column: 7/9;
+}
+
+.womenFamily32 {
+    grid-column: 9/11;
+}
+
+.manFamily33 {
+    grid-column: 13/15;
+}
+
+.womenFamily33 {
+    grid-column: 15/17;
+}
+
+.manFamily34 {
+    grid-column: 25/27;
+}
+
+.womenFamily34 {
+    grid-column: 27/29;
+}
+
+.manFamily35 {
+    grid-column: 37/39;
+}
+
+.womenFamily35 {
+    grid-column: 39/41;
+}
+
+.manFamily36 {
+    grid-column: 43/45;
+}
+
+/* .womenFamily36 {
+    grid-column: 33/35;
+} */
+
+.manFamily37 {
+    grid-column: 55/57;
+}
+
+.womenFamily37 {
+    grid-column: 57/59;
+}
+
+.manFamily38 {
+    grid-column: 68/70;
+}
+
+.womenFamily38 {
+    grid-column: 70/72;
+}
+
+.manFamily39 {
+    grid-column: 73/75;
+}
+
+.womenFamily39 {
+    grid-column: 75/77;
+}
+
+.manFamily310 {
+    grid-column: 83/85;
+}
+
+.womenFamily310 {
+    grid-column: 85/87;
+}
+
+.conectionLine21 {
+    grid-row: 4/5;
+    grid-column: 15/15;
+    width: 0px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    right: 35px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+
+.conectionLine22 {
+    grid-row: 4/5;
+    grid-column: 8/14;
+    width: 960px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: -1287px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.conectionLine23 {
+    grid-row: 4/5;
+    grid-column: 26/38;
+    width: 955px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    right: -80px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+}
+
+/* .conectionLine2::after {
+    grid-row: 4/5;
+    grid-column: 27/28;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 2010px;
+} */
+
+.conectionLine24 {
+    grid-row: 4/5;
+    grid-column: 39/41;
+    width: 0px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    right: 75px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+}
+
+.conectionLine25 {
+    grid-row: 4/5;
+    grid-column: 54/66;
+    width: 960px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: -85px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.conectionLine25::after {
+    grid-row: 4/5;
+    grid-column: 57/58;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 160px;
+}
+
+
+.conectionLine26 {
+    grid-row: 4/5;
+    grid-column: 75/76;
+    width: 0px;
+    height: 45px;
+    position: relative;
+    top: 20px;
+    right: 35px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+}
+
+
+
+.conectionLine27 {
+    grid-row: 4/5;
+    grid-column: 80/90;
+    width: 400px;
+    height: 35px;
+    position: relative;
+    top: 10px;
+    right: 195px;
+    border-right: 1px solid black;
+    /* border-left: 1px solid black;
+    border-bottom: 1px solid black; */
+}
+
+.conectionLine28 {
+    grid-row: 4/5;
+    grid-column: 80/90;
+    width: 800px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: -10px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+
+
+/* IV */
+
+.generation4 {
+    grid-row: 3/4; 
+}
+
+.manFamily41 {
+    grid-column: 13/15;
+}
+
+.womenFamily41 {
+    grid-column: 15/17;
+}
+
+.manFamily42 {
+    grid-column: 20/22;
+}
+
+/* .womenFamily42 {
+    grid-column: 9/11;
+} */
+
+.manFamily43 {
+    grid-column: 26/28;
+}
+
+.womenFamily43 {
+    grid-column: 28/30;
+}
+
+.manFamily44 {
+    grid-column: 32/34;
+}
+
+/* .womenFamily44 {
+    grid-column: 21/23;
+} */
+
+.manFamily45 {
+    grid-column: 38/40;
+}
+
+/* .womenFamily45 {
+    grid-column: 33/35;
+} */
+
+.manFamily46 {
+    grid-column: 52/54;
+}
+
+.womenFamily46 {
+    grid-column: 54/56;
+}
+
+.manFamily47 {
+    grid-column: 64/66;
+}
+
+.womenFamily47 {
+    grid-column: 66/68;
+}
+
+.manFamily48 {
+    grid-column: 74/76;
+}
+
+/* .womenFamily48 {
+    grid-column: 51/53;
+} */
+
+.manFamily49 {
+    grid-column: 79/81;
+}
+
+/* .womenFamily49 {
+    grid-column: 57/59;
+} */
+
+.manFamily410 {
+    grid-column: 84/86;
+}
+
+/* .womenFamily410 {
+    grid-column: 89/91;
+} */
+
+.manFamily411 {
+    grid-column: 89/91;
+}
+
+/* .womenFamily410 {
+    grid-column: 89/91;
+} */
+
+
+
+/* V */
+
+.generation5 {
+    grid-row: 1/2; 
+}
+
+.manFamily54 {
+    grid-column: 11/13;
+}
+
+/* .womenFamily54 {
+    grid-column: 21/23;
+} */
+
+.manFamily55 {
+    grid-column: 17/19;
+}
+
+/* .womenFamily55 {
+
+} */
+
+.manFamily56 {
+    grid-column: 47/49;
+}
+
+/* .womenFamily56 {
+    grid-column: 33/35;
+} */
+
+.manFamily57 {
+    grid-column: 53/55;
+}
+
+/* .womenFamily57 {
+    grid-column: 39/41;
+} */
+
+
+.manFamily58 {
+    grid-column: 54/61;
+}
+
+/* .womenFamily58 {
+    grid-column: 33/35;
+} */
+
+.manFamily59 {
+    grid-column: 65/67;
+}
+
+/* .womenFamily59 {
+    grid-column: 39/41;
+} */
+
+
+.conectionLine33 {
+    grid-row: 2/3;
+    grid-column: 12/18;
+    width: 470px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.conectionLine33::after {
+    grid-row: 2/3;
+    grid-column: 14/16;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 240px;
+}
+
+.conectionLine34 {
+    grid-row: 2/3;
+    grid-column: 48/60;
+    width: 960px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.conectionLine35 {
+    grid-row: 2/3;
+    grid-column: 50/51;
+    width: 0px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    right: -285px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */
+
+}
+
+.conectionLine36 {
+    grid-row: 2/3;
+    grid-column: 66/67;
+    width: 0px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    right: 35px;
+    /* border-right: 1px solid black; */
+    border-left: 1px solid black;
+    /* border-bottom: 1px solid black; */
+
+}
+
+
+
+
+
+
+
+
+
+
+/* CARD */
+.card {
+    width: 140px;
+    height: 200px;
+    /* border: 1px solid black; */
+    position: relative;
+    perspective: 1000px;
+
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 5px;
+
+}
+.front {
+    border: 1px solid black;
+    background-color: ivory;
+    display: grid;
+    grid-template-rows: 80%, 20%;
+    align-items: center;
+    text-align: center;
+
+}
+
+.back {
+    display: grid;
+    justify-items: center;
+    /* grid-template-columns: 1fr; */
+    grid-template-rows: 10% 10% 10% 50% 20%;
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    background-color: lightgreen;
+    transform: rotateY(180deg);
+    font-size: 10px;
+}
+
+.card:hover .front {
+    transform: rotateY(180deg);
+}
+
+.card:hover .back {
+    transform: rotateY(360deg);
+}
+
+.img {
+    align-self: center;
+    justify-self: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 115px;
+    max-width: 100%;
+    height: 150px;
+    overflow: hidden;
+    border: 1px solid black;
+}
+
+.dateOfBirth {
+      font-size: 8px;
+}
+
+.moreInformation {
+    border-radius: 5px;
+    border: 1px solid blue;
+    width: 120px ;
+    height: 30px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    bottom: 20px;
+    background-color: white;
+    font-size: 8px;
+}
+
+.moreInformation:hover {
+    background-color: #BBDEFB;
+    color: black;
+}
+
+.infoText {
+    width: 115px;
+}
