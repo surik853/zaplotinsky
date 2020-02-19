@@ -168,6 +168,8 @@ h1 {
     border-bottom: 1px solid black;
 }
 
+
+
 .conectionLine12 {
     grid-row: 6/7;
     grid-column: 8/14;
@@ -381,6 +383,18 @@ h1 {
     grid-column: 85/87;
 }
 
+.conectionLine20 {
+    grid-row: 4/5;
+    grid-column: 9/9;
+    width: 0px;
+    height: 45px;
+    position: relative;
+    top: 10px;
+    right: 35px;
+    border-left: 1px solid black;
+}
+
+
 .conectionLine21 {
     grid-row: 4/5;
     grid-column: 15/15;
@@ -526,6 +540,13 @@ h1 {
 .generation4 {
     grid-row: 3/4; 
 }
+.manFamily40 {
+    grid-column: 8/10;
+}
+
+.womenFamily40 {
+    grid-column: 10/12;
+}
 
 .manFamily41 {
     grid-column: 13/15;
@@ -623,6 +644,14 @@ h1 {
     grid-row: 1/2; 
 }
 
+.manFamily52 {
+    grid-column: 5/7;
+}
+
+.manFamily53 {
+    grid-column: 9/11;
+}
+
 .manFamily54 {
     grid-column: 11/13;
 }
@@ -671,6 +700,36 @@ h1 {
 /* .womenFamily59 {
     grid-column: 39/41;
 } */
+
+.conectionLine32 {
+    grid-row: 2/3;
+    grid-column: 1/15;
+    width: 330px;
+    height: 20px;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+
+}
+
+.conectionLine32::after {
+    grid-row: 2/3;
+    grid-column: 1/15;
+
+    content: "";
+    display: block;
+    width: 1px;
+    height: 25px;
+
+    background-color: black; 
+
+    position: relative;
+    top: 20px;
+    left: 330px;
+}
 
 
 .conectionLine33 {
